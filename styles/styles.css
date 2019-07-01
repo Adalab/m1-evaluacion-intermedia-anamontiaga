@@ -2,34 +2,56 @@
 
 body {
     font-family: 'Rubik', sans-serif;
+    margin-top:0;
 }
 
 .header {
     width: 100vw;
+    position: fixed;
+    background-color: #FFFFFF;
+
 }
 
 .header-content {
     display: flex;
+    flex-direction: column;
     margin: auto;
-    justify-content: space-between;
+    align-items: center;
     max-width: 600px;
 }
-
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    padding: 0;
+}
 .menu-content {
     color: #4a4a4a;
+}
+
+.logo {
+    margin: 10px auto;
+    width: 155px;
 }
 
 .main {
     background-color: #3CDBC0;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    
 }
 
 .main-content {
-    margin:auto;
+    margin: auto;
     max-width: 600px;
 }
 
 .content {
+    font-size: 30px;
+    font-weight: bold;
     color: #FFFFFF;
     text-align: center;
 }
+
