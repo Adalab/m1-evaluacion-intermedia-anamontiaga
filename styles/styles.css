@@ -1,0 +1,35 @@
+/* font-family: 'Rubik', sans-serif; */
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    width: 100vw;
+}
+
+.header-content {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.menu-content {
+    color: #4a4a4a;
+}
+
+.main {
+    background-color: #3CDBC0;
+    height: 100vh;
+}
+
+.main-content {
+    margin:auto;
+    max-width: 600px;
+}
+
+.content {
+    color: #FFFFFF;
+    text-align: center;
+}
